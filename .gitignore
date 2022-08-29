@@ -1,0 +1,6 @@
+# Project exclude paths
+/eureka-7001/target/
+/netty-consumer/target/
+/netty-provider-8001/target/
+/netty-provider-8002/target/
+/user-provider-8000/target/
