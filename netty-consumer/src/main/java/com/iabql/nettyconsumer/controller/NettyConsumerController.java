@@ -27,7 +27,7 @@ public class NettyConsumerController {
     private List<ServiceInstance> instances = null;
 
     private static final String URL ="http://USER-PROVIDER";
-    
+
 
     @RequestMapping("/getAllServer")
     public String getAllServer(){
