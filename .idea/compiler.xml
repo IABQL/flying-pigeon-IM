@@ -8,23 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netty-provider-8001" />
         <module name="netty-provider-8002" />
-        <module name="netty-consumer" />
-        <module name="eureka-7001" />
+        <module name="im-gateway" />
         <module name="user-provider-8000" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="15">
+      <module name="eureka-7001" target="11" />
       <module name="IM-Api" target="15" />
+      <module name="netty-consumer" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="IM-Api" options="" />
       <module name="eureka-7001" options="-parameters" />
+      <module name="im-gateway" options="" />
       <module name="netty-consumer" options="-parameters" />
-      <module name="netty-provider-8001" options="-parameters" />
-      <module name="netty-provider-8002" options="-parameters" />
-      <module name="user-provider-8000" options="-parameters" />
+      <module name="netty-provider-8001" options="" />
+      <module name="netty-provider-8002" options="" />
+      <module name="user-provider-8000" options="" />
     </option>
   </component>
 </project>

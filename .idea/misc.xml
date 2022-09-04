@@ -5,11 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-7001/pom.xml" />
         <option value="$PROJECT_DIR$/netty-provider-8001/pom.xml" />
         <option value="$PROJECT_DIR$/user-provider-8000/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/netty-provider-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/im-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

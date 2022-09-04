@@ -36,6 +36,7 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
+
         // 获取客户端所传输的消息
         String content = msg.text();
         content.replaceAll("\r","\\r").replaceAll("\n","\\n");
