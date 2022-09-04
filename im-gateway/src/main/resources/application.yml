@@ -1,0 +1,23 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: im-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: ws-server
+          uri: lb:ws://netty-server
+          predicates:
+            - Path=/ws/**
+        - id: user-server
+            uri: lb://user-server
+            predicates:
+              - Path=/im/**
